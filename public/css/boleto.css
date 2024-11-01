@@ -1,0 +1,64 @@
+@media (max-width: 900px ) {
+    .icons .icons-desc{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px ) {
+    .icons .icons-desc{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 580px ) {
+    .icons .icons-desc{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media (max-width: 485px ) {
+    .icons .icons-desc{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+.icons{
+    width: 100%;
+}
+
+.icons-desc{
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    padding: 15px;
+    background-color: #ececec;
+    
+}
+
+.icons-desc p{
+    filter: invert(70%);
+}
+
+.icons-img{
+    display: block;
+    float: none !important;
+    max-height: 40px !important;
+}
+
+.icons-desc p{
+    padding-left: 20px;
+}
+

@@ -1,0 +1,35 @@
+:root{
+    /* --borda: 4px solid #d03a3a; */
+    --cursor: pointer;
+    --font-color-desc:rgb(0, 0, 0);
+    
+}
+
+
+
+
+/*.tab-btn-defout-pix{
+    color: var(--font-color-desc);
+    filter: opacity(.2);
+} */
+
+.tab-cursor{
+
+    cursor: var(--cursor);
+    display: block;
+    float: none !important;
+    max-height: 40px !important;
+    margin: 0 auto !important;
+}
+
+.tab-btn{
+    color: var(--font-color-desc);
+    filter: opacity(.3) grayscale(1);
+}
+
+
+.tab-btn-none{
+    color: var(--font-color-desc);
+    filter: none;
+}
+
